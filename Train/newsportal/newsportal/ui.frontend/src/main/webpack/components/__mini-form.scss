@@ -1,0 +1,115 @@
+.cmp-form__container {
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    border: 1px solid rgb(209, 204, 204);
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.4);
+    overflow: hidden;
+
+    span#close {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 0px;
+        font-size: 2em;
+        z-index: 10000;
+    }
+
+    &__persona-details {
+        width: 100%;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+        
+        & div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    &__card-details {
+        width: 100%;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1em;
+
+        & div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    input, textarea {
+        border: none;
+        outline: none;
+        padding: 6px 10px;
+        border: 1px solid rgb(209, 204, 204);
+        border-radius: 6px;
+    }
+
+    input[type='submit'] {
+        cursor: pointer;
+        background-color: #586f69;
+        color: white;
+        font-weight: 500;
+        border: none;
+        outline: none;
+    }
+}
+
+body.fixed {
+    overflow: hidden;
+}
+
+#payment-form {
+    color: white;
+    display: none;
+
+    &.show {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100000;
+        background-color: rgb(0, 0, 0, 0.8);
+    }
+}
+
+.notification {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 400px;
+    padding: 1em;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 6px;
+    border: 1px solid gray;
+
+    &.show-notification {
+        display: block;
+    }
+
+    @keyframes go {
+        from {
+            transform: translateX(-100%);
+        }
+        
+        to {
+            transform: translateX(0%);
+        }
+    }
+}

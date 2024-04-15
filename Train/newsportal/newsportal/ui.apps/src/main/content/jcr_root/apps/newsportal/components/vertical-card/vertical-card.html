@@ -1,0 +1,89 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+    <sly data-sly-call="${clientlib.css @ categories='clientlibs.vertical-card'}"/>
+</sly>
+
+<div class="vertical-card__container" id="${image.id}" data-sly-use.image="com.adobe.cq.wcm.core.components.models.Image">
+  <div
+    data-cmp-is="image"
+    data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+    data-sly-test="${image.src}"
+    data-cmp-widths="${image.widths}"
+    data-cmp-dmimage="${image.dmImage}"
+    data-cmp-smartcroprendition="${image.smartCropRendition}"
+    data-cmp-src="${image.srcUriTemplate ? image.srcUriTemplate : image.src}"
+    data-asset-id="${image.uuid}"
+    data-cmp-filereference="${image.fileReference}"
+    data-cmp-data-layer="${image.data.json}"
+    data-cmp-hook-image="imageV3"
+    class="vertical-card__image-container"
+    itemscope
+    itemtype="http://schema.org/ImageObject"
+  >
+    <img
+      src="${image.src}"
+      srcset="${image.srcset}"
+      loading="${image.lazyEnabled ? 'lazy' : ''}"
+      class="vertical-card__image"
+      itemprop="contentUrl"
+      width="${image.width}"
+      height="${image.height}"
+      sizes="${image.sizes}"
+      alt="${image.alt || true}"
+      title="${image.displayPopupTitle && image.title}"
+    />
+  </div>
+
+  <div class="vertical-card__content" data-sly-use.model="com.adobe.aem.core.models.MultiFieldModel">
+    <div class="vertical-card__content-heading">
+      <span> ${model.heading} </span>
+    </div>
+    <div class="vertical-card__content-description">
+      <p>${model.description}</p>
+    </div>
+    <div class="vertical-card__content-buttons">
+      <button data-sly-repeat.item="${model.buttonDetailsWithMap}" class="${item.theme}"> ${item.buttonText} </button>
+    </div>
+    <div class="vertical-card__content-link" data-sly-test="${properties.linkVisible}">
+        <a href="${properties.linkLink}">${properties.togoLink}</a>
+    </div>
+    
+    <!--/* 
+    <div data-sly-list.children = "${resource.children}"> 
+        <div data-sly-repeat.grandChildren = "${children.children}"> 
+        	<button class="${grandChildren.theme}"> ${grandChildren.buttonText} </button>
+        </div>
+    </div>
+    
+    */-->
+    
+    
+  </div>
+  
+  
+  
+  
+  
+  <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+    <sly data-sly-call="${clientlib.js @ categories='clientlibs.vertical-card'}"/>
+</sly>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <sly
+    data-sly-call="${templates.placeholder @ isEmpty = !image.src, classAppend = 'cmp-image cq-dd-image'}"
+  ></sly>
+</div>
+
+

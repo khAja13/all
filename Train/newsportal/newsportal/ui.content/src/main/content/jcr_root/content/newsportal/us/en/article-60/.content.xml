@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-09-24T18:42:22.130+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/template-for-real"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ARTICLE 7"
+        sling:resourceType="newsportal/components/homepage"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:lastModified="{Date}2023-09-13T12:08:05.624+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2023-09-13T22:33:00.889+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-13T22:34:28.313+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/newsportal/us/en/site/experience-fragment11111/master"
+                id="header-fragment"/>
+            <container_1029802934
+                jcr:created="{Date}2023-09-16T10:24:52.030+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-16T10:24:52.030+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <banner_component
+                    jcr:created="{Date}2023-09-17T19:16:49.057+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-17T19:39:02.345+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/banner-component"
+                    altValueFromDAM="true"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                    id="AD"
+                    imageFromPageImage="false"
+                    imageTitle="Travel is an investment in yourself"
+                    isDecorative="true"
+                    linkTarget="_self"
+                    titleValueFromDAM="true"/>
+            </container_1029802934>
+            <container
+                jcr:created="{Date}2023-09-14T01:14:14.740+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-14T01:14:14.740+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                id="main-container"
+                layout="responsiveGrid">
+                <khaja_hero
+                    jcr:lastModified="{Date}2023-09-15T12:49:33.683+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/khaja-hero"
+                    category="INSIGHTS"
+                    description="Supporting the vitality and survival of US small businesses is especially critical now. Let's not forget just how essential they are."
+                    title="Commitment to Support Small Businessess"/>
+                <khaja_hero_2062461746
+                    jcr:lastModified="{Date}2023-09-14T01:15:34.915+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/khaja-hero"
+                    category="INSIGHTS"
+                    description="Supporting the vitality and survival of US small businesses is especially critical now. Let's not forget just how essential they are."
+                    title="Commitment to Support Small Businessess"/>
+            </container>
+            <container_1995692692
+                jcr:created="{Date}2023-09-14T10:17:01.129+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-14T19:35:40.570+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                id="card-component"
+                layout="responsiveGrid">
+                <card_component
+                    jcr:created="{Date}2023-09-14T15:42:58.269+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-15T14:03:07.007+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/card-component"
+                    alt="asdsa"
+                    altValueFromDAM="false"
+                    altValueFromPageImage="false"
+                    description="Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast."
+                    fileReference="/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg"
+                    heading="Bali, Indonesia"
+                    imageFromPageImage="false"
+                    isDecorative="true"
+                    label="Must visit">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="10"/>
+                    </cq:responsive>
+                </card_component>
+                <card_component_936564272
+                    jcr:created="{Date}2023-09-18T09:19:31.319+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-18T09:24:12.675+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/card-component"
+                    alt="adfasdfasdf"
+                    altValueFromDAM="false"
+                    altValueFromPageImage="false"
+                    description="Supporting the vitality and survival of US small businesses is especially critical now. Let's not forget just how essential they are."
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-166718157.jpeg"
+                    heading="Mont Blanc Glacier from Chamonix, France"
+                    imageFromPageImage="false"
+                    isDecorative="true"
+                    label="Must visit"
+                    linkTarget="_self"
+                    titleValueFromDAM="true"/>
+            </container_1995692692>
+            <container_2133225135
+                jcr:created="{Date}2023-09-17T12:26:44.062+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-17T12:40:48.985+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                id="order-component">
+                <text
+                    jcr:created="{Date}2023-09-17T14:19:25.535+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-17T14:20:10.198+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/text"
+                    id="order-heading"
+                    text="&lt;h1>Order details&lt;/h1>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+                <container_1238977030
+                    jcr:created="{Date}2023-09-18T01:13:41.491+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-18T01:34:03.501+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/homepage-form/container"
+                    action="/content/usergenerated/newsportal/us/en/article-60/cq-gen1694979821491/"
+                    actionType="foundation/components/form/actions/store"
+                    id="form-container">
+                    <container
+                        jcr:created="{Date}2023-09-17T20:22:35.272+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-09-17T20:29:44.873+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/container"
+                        id="personal-details">
+                        <text
+                            jcr:created="{Date}2023-09-17T20:27:57.050+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:28:27.515+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/text"
+                            text="&lt;h2>Personal details&lt;/h2>&#xd;&#xa;"
+                            textIsRich="true"/>
+                        <text_1179632810
+                            jcr:created="{Date}2023-09-17T20:16:42.758+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-18T17:00:40.177+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Name"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="name"
+                            name="name"
+                            required="true"
+                            requiredMessage="Name is required"
+                            rows="2"
+                            type="text"/>
+                        <text_781951882
+                            jcr:created="{Date}2023-09-17T20:16:52.855+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-18T09:40:29.580+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Mobile number"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="mobile"
+                            name="mobile"
+                            required="true"
+                            requiredMessage="Mobile number is required"
+                            rows="2"
+                            type="tel"/>
+                        <text_1425880034
+                            jcr:created="{Date}2023-09-17T20:16:56.939+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:19:20.487+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Email"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="email"
+                            name="email"
+                            required="true"
+                            requiredMessage="Email is required"
+                            rows="2"
+                            type="email"/>
+                        <text_1288298576
+                            jcr:created="{Date}2023-09-17T20:17:06.771+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:19:25.619+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Address"
+                            sling:resourceType="newsportal/components/form/text"
+                            name="address"
+                            required="true"
+                            requiredMessage="Address is needed"
+                            rows="2"
+                            type="textarea"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </container>
+                    <container_207434355
+                        jcr:created="{Date}2023-09-17T20:23:01.003+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-09-17T20:29:58.649+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/container"
+                        id="card-details">
+                        <text_2036407627
+                            jcr:created="{Date}2023-09-17T20:28:35.712+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:28:49.606+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/text"
+                            text="&lt;h2>Card details&lt;/h2>&#xd;&#xa;"
+                            textIsRich="true"/>
+                        <text
+                            jcr:created="{Date}2023-09-17T20:23:10.514+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:23:40.448+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Card number"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="card"
+                            name="card"
+                            rows="2"
+                            type="number"/>
+                        <text_681682602
+                            jcr:created="{Date}2023-09-17T20:23:18.982+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:24:48.591+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Expiry date"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="expiry"
+                            name="expiry"
+                            rows="2"
+                            type="date"/>
+                        <text_1971531319
+                            jcr:created="{Date}2023-09-17T20:23:21.393+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:25:07.683+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="CVV"
+                            sling:resourceType="newsportal/components/form/text"
+                            id="cvv"
+                            name="cvv"
+                            rows="2"
+                            type="number"/>
+                        <button
+                            jcr:created="{Date}2023-09-17T20:45:16.562+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-17T20:45:16.562+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/form/button"/>
+                    </container_207434355>
+                </container_1238977030>
+            </container_2133225135>
+            <root
+                jcr:lastModified="{Date}2023-09-13T12:08:05.624+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2023-09-23T12:11:43.714+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-23T12:11:53.312+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/container"
+                    id="main-container">
+                    <vertical_card
+                        jcr:created="{Date}2023-09-23T12:12:18.855+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-09-25T12:23:50.201+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/vertical-card"
+                        alt="a"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="false"
+                        description="Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast."
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd-shared/en/activities/climbing/ice-climbing.jpg"
+                        heading="Bali, Indonesia"
+                        imageFromPageImage="false"
+                        isDecorative="true"
+                        linkLink="https://www.google.com"
+                        linkTarget="_self"
+                        linkVisible="false"
+                        titleValueFromDAM="true"
+                        togoLink="[Let's go]">
+                        <count jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Primary button"
+                                theme="dark"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Secondary button"
+                                theme="light"/>
+                        </count>
+                    </vertical_card>
+                    <vertical_card_1343120436
+                        jcr:created="{Date}2023-09-23T16:13:23.630+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-09-24T22:36:26.041+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/vertical-card"
+                        alt="Khaja Logo"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="false"
+                        description="Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast."
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-209250305.jpeg"
+                        heading="Bali, Indonesia"
+                        imageFromPageImage="false"
+                        isDecorative="true"
+                        linkTarget="_self"
+                        linkVisible="true"
+                        titleValueFromDAM="true"
+                        togoLink="Let's go">
+                        <count jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Primary button"
+                                theme="light"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Secondary button"
+                                theme="dark"/>
+                        </count>
+                    </vertical_card_1343120436>
+                    <vertical_card_17252693
+                        jcr:created="{Date}2023-09-23T16:16:25.611+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-09-24T22:36:13.917+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/vertical-card"
+                        alt="Northern lights"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="false"
+                        description="Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast."
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd-shared/en/adventures/gastronomic-marais-tour/adobestock-270835979.jpg"
+                        heading="Mont Blanc Glacier from Chamonix, France"
+                        imageFromPageImage="false"
+                        isDecorative="true"
+                        linkTarget="_self"
+                        linkVisible="true"
+                        titleValueFromDAM="true"
+                        togoLink="Let's go">
+                        <count jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Primary button"
+                                theme="light"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                buttonText="Secondary button"
+                                theme="dark"/>
+                        </count>
+                    </vertical_card_17252693>
+                </container>
+                <custom_modal
+                    jcr:created="{Date}2023-09-23T16:18:35.417+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-25T15:19:12.407+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/custom_modal"
+                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error         consectetur minima, facere harum nemo numquam ex eligendi rerum vero         assumenda?"
+                    id="modal-1"
+                    theme="dark"
+                    themeDialog="dark"
+                    title="Modal dialog title">
+                    <count jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            buttonText="Primary button"
+                            theme="dark"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            buttonText="Secondary button"
+                            theme="light"/>
+                    </count>
+                </custom_modal>
+                <embed
+                    jcr:created="{Date}2023-09-23T16:19:19.052+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-24T23:10:02.937+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/embed"
+                    html="&lt;button> Let's go &lt;/button>"
+                    id="modal-button"
+                    type="html"/>
+            </root>
+            <experiencefragment_293586335
+                jcr:created="{Date}2023-09-13T22:33:10.595+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-13T22:33:52.496+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/newsportal/us/en/site/experience-fragment11111/footer"/>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-09-13T22:32:46.759+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="true"/>
+    </jcr:content>
+</jcr:root>

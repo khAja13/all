@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: #131313;
+    color: #dfdfdf;
+}
+
+header, footer {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.accordion {
+    width: 30rem;
+    margin: auto;
+}
+
+.cmp-accordion__button {
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.image {
+    padding: 2rem 0;
+    width: 30rem;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.carousel .cmp-container {
+    display:flex;
+    width: 30rem;
+    margin:auto;
+}
+
+.carousel .cmp-container div{
+    width: 30rem;
+}
+
+.carousel .cmp-container .image {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .cmp-container .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .container {
+    width: 30rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cmp-carousel__actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.active-accordion {
+    display: block;
+}
+
+.none {
+    display: none;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-09-13T21:19:25.042+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/newsportal/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="newsportal/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2023-09-13T21:17:41.143+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            id="footer-container"
+            layout="responsiveGrid">
+            <text
+                jcr:created="{Date}2023-09-13T21:17:57.168+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-13T21:19:24.932+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/text"
+                id="footer-heading"
+                text="&lt;h1>TA DIGITAL&lt;/h1>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text_676201925
+                jcr:created="{Date}2023-09-13T21:18:30.049+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-13T21:18:34.116+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/text"
+                text="&lt;p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur, iure est voluptatem, saepe doloremque placeat consequuntur veniam quibusdam laudantium consectetur minima unde nesciunt. Sed placeat unde consectetur. Perferendis, pariatur.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text_1124891883
+                jcr:created="{Date}2023-09-13T21:18:44.553+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-13T21:18:48.907+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/text"
+                text="&lt;p>© 2023 TA Digital. All rights reserved.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

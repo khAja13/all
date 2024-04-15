@@ -1,0 +1,20 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+    <sly data-sly-call="${clientlib.css @ categories='clientlibs.hero'}"/>
+</sly>
+
+<div class="hero-wrapper" data-sly-use.model="com.adobe.aem.core.models.HeroComponentModel">
+    <div class="hero-content">
+        <div class="category">
+            <small> ${model.category} </small>
+        </div>
+        <div class="title">
+            <h1> ${model.title} </h1>
+        </div>
+        <div class="description">
+            <p> ${model.description} </p>
+        </div>  
+        <div class="button">
+            <button><a href="#">Learn more</a></button>
+        </div>
+    </div>
+</div>

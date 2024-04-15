@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-09-08T13:15:49.410+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/homepage-t1"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="newsportal/components/homepage">
+        <root
+            jcr:lastModified="{Date}2023-09-08T13:13:08.938+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <header
+                jcr:created="{Date}2023-09-07T22:50:44.920+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-07T22:51:30.264+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/header"
+                headerTitle="Header"/>
+            <container
+                jcr:created="{Date}2023-09-08T13:13:59.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-08T13:15:09.917+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2023-09-07T22:51:24.107+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-07T23:03:24.923+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/footer"
+                headerTitle="Footer"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

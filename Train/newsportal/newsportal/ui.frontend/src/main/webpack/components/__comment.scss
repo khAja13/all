@@ -1,0 +1,200 @@
+.mini_comment {
+  // background-color: black;
+  padding-bottom: 2em;
+}
+
+.cmp-comment {
+  color: black;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06),
+      0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: block;
+  
+    &__block-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1em;
+  
+      &__title {
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+  
+    &__writing {
+      border: 1px solid #e8e8e8;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 24px;
+      padding: 12px;
+  
+      .textarea {
+        width: 100%;
+        font-family: "Inter";
+        color: #969696;
+        height: 50px;
+        overflow-y: auto;
+        appearance: none;
+        border: 0;
+        outline: 0;
+        resize: none;
+        font-size: 16px;
+        line-height: 24px;
+      }
+  
+      .footer {
+        margin-top: 12px;
+        padding-top: 12px;
+        display: flex;
+        justify-content: flex-end;
+        border-top: 1px solid #e8e8e8;
+      }
+    }
+  
+    &__section {
+      display: grid;
+    
+      .user-banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .user {
+          gap: 8px;
+          align-items: center;
+          display: flex;
+    
+          .avatar {
+            height: 32px;
+            width: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid transparent;
+            position: relative;
+            border-radius: 100px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+  
+            img {
+              max-width: 100%;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+  
+      &__footer {
+        gap: 12px;
+        display: flex;
+        align-items: center;
+    
+        .reactions {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+      }
+    
+      & + & {
+        padding-top: 12px;
+      }
+    }
+    
+    h5 {
+        margin: 0;
+        padding: 0;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    
+    .btn {
+      appearance: none;
+      background: transparent;
+      border: 0;
+      padding: 0;
+      display: flex;
+      font: inherit;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: #969696;
+      transition: 0.2s ease;
+      outline: none;
+    
+      i {
+        font-size: 18px;
+        transition: 0.15s ease-in-out;
+      }
+      
+      &.primary {
+        min-width: 64px;
+        padding: 8px 12px;
+        height: 40px;
+        color: #fff;
+        display: inline-flex;
+        background: #0085ff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06),
+          0px 1px 1px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+    
+        &:hover {
+          background: lighten(#0085ff, 10%);
+        }
+      }
+    
+      img {
+        max-width: 18px;
+        height: auto;
+      }
+    
+      &.react {
+        padding: 4px 8px 4px 4px;
+        border-radius: 8px;
+        gap: 6px;
+    
+      }
+    }
+    
+    p {
+      line-height: 24px;
+    }
+    
+    .is-mute {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: #969696;
+    }
+    
+    a {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      color: #1c1c1c;
+      text-decoration: none;
+      transition: opacity 0.15s ease-in-out;
+    
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    
+    h2 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .fa-classic, .fa-regular, .fa-solid, .far, .fas {
+      font-family: "Font Awesome 6 Free" !important;
+    }
+  }

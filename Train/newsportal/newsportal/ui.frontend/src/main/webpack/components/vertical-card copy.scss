@@ -1,0 +1,207 @@
+// @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Roboto:wght@400;500;700;900&display=swap');
+
+// body {
+//   background-color: #343A40;
+//   transition: background-color 1.5s ease-out;
+//   font-family: "Roboto", sans-serif;
+// }
+
+// .header-icon-container {
+//   border-bottom: 1px solid gray;
+//   padding: 1rem 4rem;
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+// .icon {
+//   cursor: pointer;
+// }
+
+// #main-container {
+//   padding: 3rem 0;
+//   display: grid;
+//   row-gap: 3rem;
+// }
+
+// .vertical-card {
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   line-height: 1.2;
+// }
+
+// .vertical-card.light-theme .vertical-card__container {
+//   background-color: white;
+//   color: #343A40;
+// }
+
+// .vertical-card.light-theme button.dark {
+//   background-color: #343A40;
+//   color: white;
+// }
+
+// .vertical-card.light-theme button.light {
+//   background-color: white;
+//   color: #343A40;
+//   border: 1px solid #343A40;
+// }
+
+// .vertical-card.light-theme a {
+//   color: #343A40;
+// }
+
+// .vertical-card__container {
+//   grid-column: 4/10;
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   grid-template-rows: 350px 1fr;
+//   border: 1px solid gray;
+//   padding: 1rem;
+//   row-gap: 1rem;
+//   border-radius: 6px;
+//   cursor: pointer;
+// }
+
+// .vertical-card__container:hover {
+//   scale: 1.01;
+//   transition: scale 0.3s;
+// }
+
+// .vertical-card.four-column .vertical-card__container {
+//   grid-column: 4/8;
+// }
+
+// .vertical-card.three-column .vertical-card__container {
+//   grid-column: 4/7;
+// }
+
+// .vertical-card__image-container {
+//   grid-column: 1/13;
+//   grid-row: span 1;
+// }
+
+// .vertical-card__content {
+//   grid-column: 1/13;
+//   grid-row: span 1;
+//   font-size: 0.875em;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px;
+// }
+
+// .vertical-card__content-heading {
+//   font-size: 2em;
+//   font-weight: bold;
+// }
+
+// .vertical-card__content-description {
+//   font-size: 1.4em;
+//   line-height: 1.5;
+//   overflow: hidden;
+//   display: -webkit-box;
+//   -webkit-box-orient: vertical;
+//   -webkit-line-clamp: 4;
+// }
+
+// .vertical-card__content-buttons {
+//   display: flex;
+//   gap: 10px;
+//   flex-wrap: wrap;
+// }
+
+// .vertical-card__content-buttons button {
+//   font-size: 1em;
+//   padding: 0.8em 1.6em;
+//   border-radius: 6px;
+//   outline: 0;
+//   border: none;
+//   cursor: pointer;
+//   font-weight: 500;
+
+// }
+
+// .vertical-card__content-buttons button.light {
+//   background-color: white;
+//   border: 1px solid #343A40;
+//   color: #343A40;
+// }
+
+// .vertical-card__content-buttons button.dark {
+//   background-color: #343A40;
+//   border: 1px solid white;
+//   color: white;
+// }
+
+// .vertical-card__content-link a {
+//   display: inline-block;
+//   padding: 10px 0;
+//   font-size: 1.2em;
+//   color: white;
+//   text-decoration: underline;
+// }
+
+// img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+
+// coral-multifield[aria-invalid="true"] {
+//   border: 1px solid red !important;
+// }
+
+// .none {
+//   display: none !important;
+// }
+
+// .embed {
+//   padding-bottom: 2rem;
+// }
+
+// @media (width < 1100px) {
+//   .vertical-card {
+//     grid-template-columns: repeat(7, 1fr);
+//   }
+
+//   .vertical-card__container {
+//     grid-column: 2 / 7;
+//   }
+
+//   .vertical-card.four-column .vertical-card__container {
+//     grid-column: 2/6;
+//   }
+
+//   .vertical-card.three-column .vertical-card__container {
+//     grid-column: 2/5;
+//   }
+// }
+
+
+// @media (width < 660px) {
+//   body {
+//     font-size: 14px;
+//   }
+
+//   .vertical-card {
+//     grid-template-columns: repeat(6, 1fr);
+//   }
+
+//   .vertical-card__container {
+//     grid-column: 2 / 6;
+//   }
+
+//   .vertical-card.four-column .vertical-card__container {
+//     grid-column: 2/6;
+//   }
+
+//   .vertical-card.three-column .vertical-card__container {
+//     grid-column: 2/5;
+//   }
+// }
+
+// @media (width < 450px) {
+//   .vertical-card {
+//     grid-template-columns: repeat(1, 1fr);
+//     padding-inline: 1rem;
+//   }
+
+// }

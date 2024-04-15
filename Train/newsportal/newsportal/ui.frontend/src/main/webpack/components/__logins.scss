@@ -1,0 +1,121 @@
+.mini_login, .mini_signup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.9);
+    display: none;
+    z-index: 99999;
+}
+
+.mini_login.show-login, .mini_signup.show-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmp-login__content, .cmp-signup__content {
+    width: 375px;
+    padding: 2em;
+    background-color: black;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.cmp-login__content h2, .cmp-signup__content h2 {
+    font-size: 1.8em;
+    margin-top: 0.8em;
+}
+
+.cmp-login__content form, .cmp-signup__content form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.user-input-wrp {
+    position: relative;
+    margin-top: 3em;
+}
+
+#close-login, #close-signup {
+    position: absolute;
+    right: 0.8em;
+    top: 0.2em;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.user-input-wrp .inputText {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(209 213 219);
+    background-color: transparent;
+    font-size: 0.875rem;
+    font-weight: lighter !important;
+    color: white;
+    height: 34px;
+    padding-bottom: .625rem;
+    padding-top: .625rem;
+    box-shadow: none;
+    padding-left: 0;
+}
+
+.user-input-wrp .inputText:focus {
+    border-color: #1C64F2;
+    border-width: medium medium 2px;
+}
+
+.user-input-wrp .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 0.25rem;
+    left: 0;
+    transition: 0.3s ease all;
+    font-weight: lighter;
+    color: rgb(107 114 128);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.user-input-wrp input:not(:focus)~.floating-label {
+    color: rgb(107 114 128) !important;
+}
+
+.user-input-wrp input:not(:placeholder-shown)~.floating-label {
+    left: -10px;
+    top: -1rem;
+    font-size: 14px;
+    opacity: 1;
+    color: #1C64F2;
+    scale: .75;
+    font-weight: 500;
+}
+
+.user-input-wrp input:focus~.floating-label {
+    left: -10px;
+    top: -1rem;
+    font-size: 14px;
+    opacity: 1;
+    color: #1C64F2;
+    scale: .75;
+    font-weight: 500;
+}
+
+.cmp-login button, .cmp-signup button {
+    margin-top: 3em;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+input:-internal-autofill-selected {
+    background-color: black !important;
+}

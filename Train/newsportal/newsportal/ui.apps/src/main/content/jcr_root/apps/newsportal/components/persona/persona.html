@@ -1,0 +1,24 @@
+<div>
+	<h2> Your details </h2>
+    
+    <div>
+    	<div data-sly-test="${!properties.firstname}"> 
+        	Details were not set 
+         </div>
+    	<div data-sly-test="${properties.firstname}"> 
+        	<label>First Name: <label> <span> ${properties.firstname} </span> 
+        </div>
+        <div data-sly-test="${properties.firstname}"> 
+        	<label>Last Name: <label> <span> ${properties.lastname @context='html'} </span> 
+        </div>
+        <div data-sly-test="${properties.firstname}"> 
+        	<label>And you are: <label> <span> ${properties.yourself} </span> 
+         </div>
+        <div data-sly-test="${properties.firstname}"> 
+        	<label>Gender: <label> <span> ${properties.gender} </span> 
+         </div>
+        <div data-sly-test="${properties.firstname}"> 
+        	<span> Thank you for liking the course... </span> 
+         </div>
+    </div>
+</div>

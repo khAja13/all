@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-09-07T19:24:04.700+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/homepage-t"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="newsportal/components/homepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2023-09-07T13:29:35.697+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-11T21:16:58.003+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <copy_of_accordion
+                    jcr:created="{Date}2023-09-07T13:36:40.502+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-07T13:36:40.502+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/Copy of accordion">
+                    <item_1
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 1"
+                        sling:resourceType="newsportal/components/container"
+                        layout="responsiveGrid"/>
+                    <item_2
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 2"
+                        sling:resourceType="newsportal/components/container"
+                        layout="responsiveGrid"/>
+                </copy_of_accordion>
+                <accordion
+                    jcr:created="{Date}2023-09-07T14:19:53.124+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-07T15:26:22.294+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/accordion"
+                    singleExpansion="false">
+                    <item_1
+                        cq:panelTitle="Item 1"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 1"
+                        sling:resourceType="newsportal/components/container"
+                        layout="responsiveGrid">
+                        <text
+                            jcr:created="{Date}2023-09-07T14:19:58.245+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-07T14:20:02.819+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/text"
+                            text="&lt;p>this is the text of the first accordion&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </item_1>
+                    <item_2
+                        cq:panelTitle="Item 2"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 2"
+                        sling:resourceType="newsportal/components/container"
+                        layout="responsiveGrid">
+                        <text
+                            jcr:created="{Date}2023-09-07T14:20:05.723+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-07T14:20:14.136+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/text"
+                            text="&lt;p>this is the text of the second accordion&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </item_2>
+                    <item_1694080576690
+                        cq:panelTitle="Item 3"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/container">
+                        <text
+                            jcr:created="{Date}2023-09-07T15:26:33.576+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-09-07T15:26:48.080+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/text"
+                            text="&lt;p>this is the text for third accordion&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </item_1694080576690>
+                </accordion>
+                <image_218127138
+                    jcr:created="{Date}2023-09-07T15:07:47.168+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-07T15:09:41.814+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/image"
+                    alt="Northern lights"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-shared/en/magazine/arctic-surfing/northern-lights.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self"
+                    titleValueFromDAM="true"/>
+                <text
+                    jcr:created="{Date}2023-09-07T19:23:53.571+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-07T19:24:04.698+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/text"
+                    text="&lt;h3>Northern lights&lt;/h3>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

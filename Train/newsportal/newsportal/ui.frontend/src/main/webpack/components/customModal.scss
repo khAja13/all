@@ -1,0 +1,135 @@
+// body.open-modal {
+//   overflow: hidden;
+// }
+
+// .custom_modal.open-modal {
+//   display: block;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   scale: 0;
+//   z-index: 100;
+//   background-color: $black-opcity;
+//   animation: go 0.2s forwards;
+
+//   .cmp-custom-modal__container {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     bottom: 0;
+//   }
+// }
+
+// .cmp-custom-modal__container {
+//   border: 1px solid gray;
+//   width: clamp(300px, 60%, 460px);
+//   aspect-ratio: 1/0.5;
+//   margin: auto;
+//   font-weight: 500;
+// }
+
+// .cmp-custom-modal__container.hide {
+//   display: none !important;
+// }
+
+// .cmp-custom-modal__container.dark {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: $dark-background-color;
+//   color: $light-text;
+// }
+
+// .cmp-custom-modal__container.light {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: $light-background-color;
+//   color: $dark-text;
+// }
+
+// .cmp-custom-modal__content-header {
+//   flex: 1;
+//   border-bottom: 1px solid gray;
+//   display: flex;
+//   align-items: center;
+// }
+
+// .cmp-custom-modal__content-header-title {
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   font-size: 1.3em;
+//   align-items: center;
+//   padding: 0.5rem 1.3rem;
+
+//   span {
+//     font-size: 1.6em;
+//     cursor: pointer;
+//   }
+// }
+
+// .cmp-custom-modal__content-body {
+//   flex: 1;
+//   padding: 1.3rem 1.2rem;
+//   line-height: 1.6;
+//   border-bottom: 1px solid gray;
+// }
+
+// .cmp-custom-modal__content-footer {
+//   flex: 1;
+// }
+
+// .cmp-custom-modal__content-footer-buttons {
+//   display: flex;
+//   justify-content: flex-end;
+//   gap: 1rem;
+//   padding: 1rem 1.2rem;
+
+//   button {
+//     padding: 8px;
+//     cursor: pointer;
+//     border-radius: 6px;
+//     outline: none;
+//     border: none;
+//     font-size: 1.1em;
+//   }
+
+//   button.light {
+//     background-color: $light-background-color;
+//     border: 1px solid #343a40;
+//   }
+
+//   button.dark {
+//     background-color: $dark-background-color;
+//     border: 1px solid white;
+//     color: $light-text;
+//   }
+// }
+
+// .embed {
+//   div {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   button {
+//     padding: 8px 20px;
+//     cursor: pointer;
+//     border-radius: 6px;
+//     outline: none;
+//     border: none;
+//     font-size: 1.1em;
+//   }
+// }
+
+// @keyframes go {
+//   from {
+//     scale: 0;
+//   }
+//   to {
+//     scale: 1;
+//   }
+// }

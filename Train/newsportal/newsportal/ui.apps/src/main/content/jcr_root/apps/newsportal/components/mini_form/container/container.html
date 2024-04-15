@@ -1,0 +1,238 @@
+<sly
+  data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+  data-sly-call="${clientLib.js @ categories='granite.csrf.standalone'}"
+  data-sly-unwrap
+/>
+
+<form
+  data-sly-use.container="com.adobe.cq.wcm.core.components.models.form.Container"
+  data-sly-use.grid="com.day.cq.wcm.foundation.model.responsivegrid.ResponsiveGrid"
+  action="/bin/custom/path"
+  method="post"
+  id="${container.id}"
+  name="${container.name}"
+  enctype="${container.enctype}"
+  class="cmp-form ${grid.cssClass}"
+>
+  <div
+    data-sly-test="${container.errorMessages}"
+    data-sly-list.item="${container.errorMessages}"
+    class="cmp-form-error"
+  >
+    <p class="cmp-form-error__item">${item}</p>
+  </div>
+  <input type="hidden" name=":formstart" value="${resource.path}" />
+  <input type="hidden" name="_charset_" value="utf-8" />
+
+  <div
+    class="cmp-form__container"
+    data-sly-list.children="${resource.children}"
+  >
+    <span id="close">&times;</span>
+    <div class="cmp-form__wrapper">
+      <div
+        data-sly-list.grandChildren="${children.children}"
+        class="cmp-form__container__persona-details"
+      >
+        <div data-sly-test="${grandChildren.type != 'submit'}">
+          <label for="">${grandChildren.jcr:title} *</label>
+          <textarea
+            data-sly-test.useTextarea="${grandChildren.type == 'textarea'}"
+            cols="30"
+            rows="1"
+            name="${grandChildren.formName}"
+            id="${grandChildren.formName}"
+          >
+          </textarea>
+          <input
+            type="${grandChildren.type}"
+            data-sly-test="${!useTextarea}"
+            name="${grandChildren.formName}"
+            id="${grandChildren.formName}"
+            disabled="${grandChildren.formName == 'toBePrice'}"
+          />
+          <span></span>
+        </div>
+        <div
+          data-sly-test="${grandChildren.type == 'submit'}"
+          style="display: flex"
+        >
+          <h4 id="payment-method-heading">*Payment method</h4>
+          <div style="display: flex; flex-direction: row">
+            <div style="display: flex; flex-direction: row">
+              <input type="radio" id="upi" name="method" value="upi" />
+              <label for="upi">UPI</label>
+            </div>
+            <div style="display: flex; flex-direction: row">
+              <input type="radio" id="card" name="method" value="card" />
+              <label for="card">Card</label>
+            </div>
+            <div style="display: flex; flex-direction: row">
+              <input type="radio" id="cod" name="method" value="COD" />
+              <label for="cod">COD</label>
+            </div>
+          </div>
+          <div>
+            <input type="button" value="Next" id="next" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="cmp-form__container__card-details"
+        data-sly-list.grandChildren1="${children.children}"
+      >
+        <div
+          data-sly-list.modernChildren="${grandChildren1.children}"
+          class="payment-container"
+        >
+          <div data-sly-list.modernChildren1="${modernChildren.getChildren}">
+            <label for="">${modernChildren1.jcr:title1}</label>
+            <input
+              type="${modernChildren1.type1}"
+              id="${modernChildren1.formName1}"
+            />
+            <span></span>
+          </div>
+        </div>
+        <div
+          data-sly-test="${grandChildren1.type == 'submit'}"
+          style="
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+          "
+        >
+          <input type="button" value="Back" id="prev" />
+          <input type="submit" value="Submit" id="form-submit" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="notification">
+    Payment is done. Item is on it's way. Sit back and just relax...!!!
+  </div>
+
+  <input
+    data-sly-test="${container.redirect}"
+    type="hidden"
+    name=":redirect"
+    value="${container.redirect @ extension='html'}"
+  />
+  <sly
+    data-sly-repeat.paragraph="${grid.paragraphs}"
+    data-sly-resource="${paragraph.path @ resourceType=paragraph.resourceType, decorationTagName='div', cssClassName=paragraph.cssClass}"
+  ></sly>
+  <sly
+    data-sly-resource="${resource.path @ resourceType=container.resourceTypeForDropArea, appendPath='/*', decorationTagName='div', cssClassName='new section aem-Grid-newComponent'}"
+    data-sly-test="${wcmmode.edit || wcmmode.preview}"
+  ></sly>
+</form>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+  <sly data-sly-call="${clientlib.all @ categories='clientlibs.form'}" />
+</sly>
+
+<style>
+  
+  input[type="button"] {
+    cursor: pointer;
+  }
+
+  input:disabled {
+    color: white !important;
+  }
+
+  .cmp-form__wrapper {
+    display: flex;
+    width: 100%;
+    transition: transform 1s ease-in-out;
+  }
+
+  .cmp-form__container__persona-details,
+  .cmp-form__container__card-details {
+    aspect-ratio: 15 / 1;
+  }
+  .cmp-form__container__persona-details > div {
+    width: 100%;
+  }
+</style>
+
+<script>
+
+    const name = document.getElementById('fname');
+    const phone = document.getElementById('phone');
+    const card = document.getElementById('cardnumber');
+    const cvv = document.getElementById('cvv');
+    
+    name.addEventListener('input', function(e) {
+      let input = e.target;
+      let label = input.previousElementSibling;
+      let errorField = input.nextElementSibling;
+
+      if (input.value.length > 10) {
+        putError(label, input, errorField)
+        errorField.innerText = '*Maximum characters for username are reached.';
+      } else {
+        putSuccess(label, input, errorField)
+        errorField.innerText = '';
+      }
+    })
+
+    phone.addEventListener('input', function(e) {
+      let input = e.target;
+      let label = input.previousElementSibling;
+      let errorField = input.nextElementSibling;
+
+      if (input.value.length > 10) {
+        putError(label, input, errorField)
+        errorField.innerText = '*Invalid phone number.';
+      } else {
+        putSuccess(label, input, errorField)
+        errorField.innerText = '';
+      }
+    })
+
+    card.addEventListener('keyup', function (e) {
+      e.preventDefault();
+
+      let input = e.target;
+      let inputValue = input.value;
+      let size = inputValue.length;
+
+      if (e.key === 'Backspace' && (size == 4 || size == 9 || size == 14)) {
+        input.value = inputValue.substring(0, size-1);
+      } else if(input.value.length == 4 || input.value.length == 9 || input.value.length == 14) {
+        input.value += '-'
+      } else if(size > 19) {
+        input.value = inputValue.substring(0, size-1);
+      } else {
+        putSuccess(input.previousElementSibling, input, input.nextElementSibling);
+        input.nextElementSibling.innerText= ''
+      }
+    })
+
+    cvv.addEventListener('input', function() {
+      if (cvv.value.length > 3) {
+        putError(cvv.previousElementSibling, cvv, cvv.nextElementSibling);
+        cvv.nextElementSibling.innerText = '*CVV length is of 3.'
+      } else {
+        putSuccess(cvv.previousElementSibling, cvv, cvv.nextElementSibling)
+        cvv.nextElementSibling.innerText = '';
+      }
+    })
+    
+    function putError(previous, current, next) {
+      previous.style.color = 'red';
+      current.style.border = '1px solid red';
+      next.style.color = 'red';
+    }
+    
+    function putSuccess(previous, current, next) {
+      previous.style.color = '';
+      current.style.border = '';
+      next.style.color = '';
+    }
+  
+</script>

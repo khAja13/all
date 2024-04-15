@@ -1,0 +1,71 @@
+<!-- <div data-sly-list.param="${request.requestParameterMap['q'][0].toString}">
+    <div data-sly-test="${!param}">
+        <h1>
+        nothing bro
+        </h1>
+    </div>
+</div>
+
+<h1>
+${request.requestParameterMap['q'][0].toString}
+
+</h1> -->
+
+
+<div class="cmp-order">
+    <div class="cmp-order__container">
+        <h1>Order details</h1>
+        <div class="cmp-order__container__content">
+            <div class="cmp-order__itis">
+                <div class="cmp-order__itis__image">
+                    <img src="" alt="" id="image">
+                </div>
+                <div class="cmp-order__itis__product-content">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusantium repellat aliquam recusandae necessitatibus ducimus voluptatum doloribus repudiandae incidunt? Error voluptatibus corrupti quaerat voluptatum ipsam, facere dignissimos eveniet possimus voluptates!</p>
+                </div>
+                <div class="cmp-order__itis__details">
+                    <h2>Shipping address</h2>
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    window.addEventListener('DOMContentLoaded', async function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('q');
+
+        const resp = await fetch('/bin/custom/path', {
+            method: "POST",
+            mode: "cors",
+            headers: {
+              credentials: 'same-origin',
+            },
+          });
+          const data = await resp.json();
+          console.log(data);
+        
+        setContent(data);
+    })
+    
+    function setContent(data) {
+        const image = document.getElementById('image');
+        const productContent = document.querySelector('.cmp-order__itis__product-content');
+        const personalDetails = document.querySelector('.cmp-order__itis__details');
+    
+        image.src = data.image;
+        productContent.children[0].textContent = data.title;
+        productContent.children[1].textContent = data.description;
+
+        personalDetails.children[1].textContent = data.name
+        personalDetails.children[2].textContent = data.address
+        personalDetails.children[3].textContent = data.phone
+    }
+
+</script>

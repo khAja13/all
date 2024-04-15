@@ -1,0 +1,41 @@
+<div class="cmp-login">
+    <div class="cmp-login__container">
+        <div class="cmp-login__content">
+            <span id="close-login">&times;</span>
+            <h2>Login</h2>
+            <form method="post" autocomplete="off" id="login-form">
+                <div class="user-input-wrp">
+                    <input type="email" name="email" class="inputText"
+                        placeholder=" " autocomplete="off" id="login-email" /> <span class="floating-label">Email
+                        address</span>
+                </div>
+                <div class="user-input-wrp">
+                    <input type="password" name="password"
+                        class="inputText" placeholder=" " autocomplete="off" id="login-password" /> <span
+                        class="floating-label">Password</span>
+                </div>
+                <button type="submit" id="submit-user">
+                    Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    document.getElementById('login-form').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        let email = document.getElementById('login-email').value;
+        let password = document.getElementById('login-password').value;
+
+        if (email === 'admin@gmail.com' && password === 'admin') {
+            localStorage.setItem('USER', JSON.stringify({
+                email,
+                username: "admin"
+            }))
+            window.location.reload();
+        }
+    })
+
+</script>

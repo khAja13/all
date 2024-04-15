@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <text
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Enter the first name"
+                        name="./firstname"
+                        required="{Boolean}true"/>
+                    <rte-lastname
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                        fieldLabel="Enter the lastname"
+                        name="./lastname"
+                        required="{Boolean}true"
+                        useFixedInlineToolbar="{Boolean}true"/>
+                    <textarea
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                        fieldLabel="Tell us about yourself"
+                        name="./yourself"
+                        required="{Boolean}true"/>
+                    <gender
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                        fieldLabel="Gender"
+                        name="./gender"
+                        required="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Male
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/radio"
+                                text="male"
+                                value="Male"/>
+                            <Female
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/radio"
+                                text="female"
+                                value="Female"/>
+                        </items>
+                    </gender>
+                    <checkbox
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        fieldLabel="Liking the AEM course?"
+                        name="./aem"
+                        required="{Boolean}true"
+                        text="Liking the AEM course?"
+                        value="Yes"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

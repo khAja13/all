@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-09-23T11:36:26.036+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/template-for-real"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Cardings"
+        sling:resourceType="newsportal/components/homepage">
+        <root
+            jcr:lastModified="{Date}2023-09-13T12:08:05.624+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2023-09-19T13:54:14.321+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-19T13:54:24.359+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                id="main-container">
+                <custom_modal
+                    jcr:created="{Date}2023-09-22T11:10:01.920+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-22T14:25:00.882+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/custom_modal"/>
+                <vertical_card
+                    cq:styleIds="[1695277783148]"
+                    jcr:created="{Date}2023-09-22T18:21:56.692+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-23T11:19:36.613+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/vertical-card"
+                    alt="qswdesrd"
+                    altValueFromDAM="false"
+                    altValueFromPageImage="false"
+                    count="2"
+                    description="Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast."
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-59459597.jpeg"
+                    heading="Bali, Indonesia"
+                    imageFromPageImage="false"
+                    isDecorative="true"
+                    linkTarget="_self"
+                    linkVisible="true"
+                    titleValueFromDAM="true"/>
+                <embed
+                    jcr:created="{Date}2023-09-22T14:40:40.124+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-09-22T16:36:29.598+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/embed"
+                    html="&lt;button onclick=&quot;alert('asfasdf')&quot;>&#xd;&#xa;Open the modal&#xd;&#xa;&lt;/button>"
+                    id="modal-button"
+                    type="html"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

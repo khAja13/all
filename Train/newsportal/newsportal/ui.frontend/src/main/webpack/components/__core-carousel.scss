@@ -1,0 +1,89 @@
+#cmp-carousel {
+    padding: 4rem 0;
+
+  &__container {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.mini_image-component {
+    font-size: 1em;
+    
+    .cmp-imp-comp__container__image {
+        position: relative;
+        aspect-ratio: 1 / 0.6;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-title {
+            padding: 0 1.3rem;
+            font-size: 2em;
+            text-align: center;
+            color: white;
+            left: 0;
+            right: 0;
+            bottom: 4.5rem;
+            background-color: rgb(0, 0, 0, 0.7);
+        }
+    }
+  }
+}
+
+.cmp-carousel {
+
+    &__actions {
+        
+        button {
+            cursor: pointer;
+            outline: none;
+            border: none;
+            font-size: 3em;
+            padding: 0.3em;
+            position: absolute;
+            color: rgb(72, 71, 71);
+            background-color: transparent;
+            background-color: rgb(242, 232, 231, 0.5);
+            clip-path: circle();
+        }
+        
+        button:hover {
+            background-color: rgba(177, 171, 171, 0.5);
+        }
+        
+        button:first-child {
+            left: 0.6em;
+            top: 0;
+            bottom: 0;
+        }
+        
+        button:last-child {
+            right: 0.6em;
+            top: 0;
+            bottom: 0;
+        }
+    }
+}
+
+.cmp-carousel__indicators{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+}
+
+.cmp-carousel__indicator {
+    border-radius: 0%;
+}
+
+#text-center {
+    color: black;
+    padding-bottom: 1rem;
+    text-align: center;
+}

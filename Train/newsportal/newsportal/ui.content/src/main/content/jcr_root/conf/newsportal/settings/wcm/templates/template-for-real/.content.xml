@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-09-25T13:08:11.841+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/newsportal/settings/wcm/template-types/homepage-TT"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Template for real"
+        status="enabled"/>
+</jcr:root>

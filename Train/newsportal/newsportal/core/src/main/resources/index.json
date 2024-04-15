@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "image": "/content/dam/newsportal/1product.jpg",
+    "images": ["/content/dam/newsportal/1product.jpg","/content/dam/newsportal/1.1product.jpg","/content/dam/newsportal/1.2product.jpg"],
+    "title": "Rubber plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 78.00,
+    "comments": [
+      {
+        "name": "Rubber plant user",
+        "time": "6 hours ago",
+        "message": "Acutally, this rubber plant is very good and I extracted rubber from it and it is very good. Loved it.",
+        "likes": 4,
+        "dislikes": 1
+      }, 
+      {
+        "name": "Rubber plant user",
+        "time": "6 hours ago",
+        "message": "Acutally, this rubber plant is very good and I extracted rubber from it and it is very good. Loved it.",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/content/dam/newsportal/2product.jpg",
+    "images": ["/content/dam/newsportal/2product.jpg","https://images.unsplash.com/photo-1632207691143-643e2a9a9361?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80","https://images.unsplash.com/photo-1606256419855-d72ce8675863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8enolMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"],
+    "title": "ZZ Plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 65.00,
+    "comments": [
+      {
+        "name": "ZZ plant user",
+        "time": "6 hours ago",
+        "message": "Initially, I don't know what is this ZZ plant means, but still I bought it and yeah still I dont have idea of what it is.",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/content/dam/newsportal/3product.jpg",
+    "images": ["/content/dam/newsportal/3product.jpg","https://images.unsplash.com/photo-1649445005423-4b964577b249?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGluZWtlJTIwcnViYmVyJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1595313133588-287415ee88ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGluZWtlJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"],
+    "title": "Tineke Rubber Plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 59.00,
+    "comments": [
+      {
+        "name": "Tineke Rubber plant user",
+        "time": "6 hours ago",
+        "message": "I have esatablished a business where I sell rubber which is extracted from tinkeke plant, worth trying.",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/content/dam/newsportal/4product.jpg",
+    "images": ["/content/dam/newsportal/4product.jpg","https://images.unsplash.com/photo-1656250104823-94cc7a460a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1947&q=80","https://images.unsplash.com/photo-1509937528035-ad76254b0356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMGNhY3R1c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"],
+    "title": "Star cactus",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 60.00,
+    "comments": [
+      {
+        "name": "Star cactus plant user",
+        "time": "6 hours ago",
+        "message": "I regret buying this product because I actually sat on this plant.",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/content/dam/newsportal/5product.jpg",
+    "images": ["/content/dam/newsportal/5product.jpg","https://www.greendna.in/cdn/shop/products/aloejuve_300x.jpg?v=1632212620","https://www.greendna.in/cdn/shop/products/aloejuvena2_300x.jpg?v=1632212620"],
+    "title": "Aloe Juvenna Plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 85.00,
+    "comments": [
+      {
+        "name": "Aloe plant user",
+        "time": "6 hours ago",
+        "message": "You know what I am very skin health conscious and even health conscious too, soo I would recommend this product.",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/content/dam/newsportal/6product.jpg",
+    "images": ["/content/dam/newsportal/6product.jpg","https://images.unsplash.com/photo-1630589947083-13749d8533a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGF3b3J0aGlhJTIwTGltaWZvbGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1588096285007-fc080e63a58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGF3b3J0aGlhJTIwTGltaWZvbGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"],
+    "title": "Haworthia Limifolia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 91.00,
+    "comments": [
+      {
+        "name": "Haworthia Limifolia user",
+        "time": "6 hours ago",
+        "message": "Omg, I dont even know how to pronounce this plant name. Sorry...",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/content/dam/newsportal/7product.jpg",
+    "images": ["/content/dam/newsportal/7product.jpg","/content/dam/newsportal/7product.jpg","/content/dam/newsportal/7product.jpg"],
+    "title": "Christmas Cactus",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 70.00,
+    "comments": [
+      {
+        "name": "Christmas Cactus user",
+        "time": "6 hours ago",
+        "message": "Recently, I got to know that there is some plant whose name is after Christmas..",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/content/dam/newsportal/8product.jpg",
+    "images": ["/content/dam/newsportal/8product.jpg","/content/dam/newsportal/8product.jpg","/content/dam/newsportal/8product.jpg"],
+    "title": "Fiddle Leaf Fig Plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 63.00,
+    "comments": [
+      {
+        "name": "Fiddle leaf plant user",
+        "time": "6 hours ago",
+        "message": "The leaves of this plant looks heavy....",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/content/dam/newsportal/9product.jpg",
+    "images": ["/content/dam/newsportal/9product.jpg","/content/dam/newsportal/9product.jpg","/content/dam/newsportal/9product.jpg"],
+    "title": "Bird of Paradise Plant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis.",
+    "price": 50.00,
+    "comments": [
+      {
+        "name": "Paradise plant",
+        "time": "6 hours ago",
+        "message": "Hope I can see the paradise because of this plant. LOL...",
+        "likes": 4,
+        "dislikes": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/content/dam/newsportal/product.jpg",
+    "images": ["/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg"],
+    "title": "ten product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis."
+  },
+  {
+    "id": 11,
+    "image": "/content/dam/newsportal/product.jpg",
+    "images": ["/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg"],
+    "title": "eleven product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis."
+  },
+  {
+    "id": 12,
+    "image": "/content/dam/newsportal/product.jpg",
+    "images": ["/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg"],
+    "title": "twelve product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis."
+  },
+  {
+    "id": 13,
+    "image": "/content/dam/newsportal/product.jpg",
+    "images": ["/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg","/content/dam/newsportal/product.jpg"],
+    "title": "thirteen product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "about": "Proin pharetra leo arcu, eu maximus neque condimentum ac. Aliquam ornare dolor sit amet libero euismod, eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies feugiat consectetur. Ut dictum massa quis felis pulvinar maximus. Duis tempor commodo tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nibh et nunc dignissim convallis. Vestibulum eu est sit amet justo semper aliquam. Morbi id vulputate justo. Vivamus tincidunt sagittis sem eget fermentum. Morbi ac tortor rhoncus, placerat ipsum sit amet, gravida magna. Curabitur maximus dolor non tellus elementum, id imperdiet turpis tincidunt. Vivamus sem nunc, sagittis ut eros vel, ultrices efficitur quam. Mauris volutpat pharetra felis eget facilisis."
+  }
+]

@@ -1,0 +1,56 @@
+<div class="products-container">
+  <div class="products-heading">
+    <h1 data-aos="fade-up">A set of products to help you do more</h1>
+  </div>
+  <div class="products-listing">
+    <div
+      class="products"
+      data-sly-list.children="${resource.children}"
+    >
+      <div class="product" data-sly-repeat.grandChildren="${children.children}" data-aos="zoom-in">
+        <img src="${grandChildren.fileReference}" alt="" />
+        <h2>${grandChildren.title}</h2>
+        <p>${grandChildren.description}</p>
+        <a href="#"
+          ><span>Learn more</span
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            class="dig-UIIcon dig-UIIcon--standard"
+            width="24"
+            height="24"
+            role="presentation"
+            focusable="false"
+          >
+            <path
+              d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              vector-effect="non-scaling-stroke"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/* 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  window.addEventListener("load", () => {
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+    });
+  });
+</script> */-->
+
+
+<style>
+
+  .mini_login, .mini_signup {
+    display: none;
+  }
+</style>

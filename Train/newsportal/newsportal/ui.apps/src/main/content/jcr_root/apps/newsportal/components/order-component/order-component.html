@@ -1,0 +1,42 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+    <sly data-sly-call="${clientlib.css @ categories='clientlibs.order'}"/>
+</sly>
+
+
+<div class="order">
+    <div class="order-content" >
+        <div class="order-personal-details">
+            <div>
+                <label for="">Name</label>
+                <input type="text" name="" id="" value="${model.name}">
+            </div>
+            <div>
+                <label for="">Mobile number</label>
+                <input type="text" name="" id="" value="${model.mobile}">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="" id="" value="${model.email}">
+            </div>
+            <div class="address">
+                <label for="">Address</label>
+                <p>${model.address}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="order-card-details">
+        <div>
+            <label for="">Card number</label>
+            <input type="number" name="" id="" value="${model.card}">
+        </div>
+        <div>
+            <label for="">Expiry date</label>
+            <input type="text" name="" id="" value="${model.expiry}">
+        </div>
+        <div>
+            <label for="">CVV</label>
+            <input type="number" name="" id="" value="${model.cvv}">
+        </div>
+    </div>
+</div>

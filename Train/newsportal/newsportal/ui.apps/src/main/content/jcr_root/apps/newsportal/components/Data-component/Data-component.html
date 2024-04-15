@@ -1,0 +1,7 @@
+<div data-sly-use.model="com.adobe.aem.core.models.BasicDataModel">
+  <p>${model.message}</p>
+
+  <h6 data-sly-list.child="${model.arr}">
+    <p>key: ${child}</p>
+  </h6>
+</div>

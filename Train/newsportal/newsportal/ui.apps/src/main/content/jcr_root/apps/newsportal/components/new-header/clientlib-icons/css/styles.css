@@ -1,0 +1,37 @@
+/* :root {
+    --theme: #343A40;
+    --line: 1px solid gray;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--theme);
+    transition: background-color 1.5s ease-out;
+}
+
+body.dark-theme {
+    --theme: #343A40;;
+    --line: 1px solid gray;
+    background-color: var(--theme);
+}
+
+body.light-theme {
+    --theme: white;
+    --line: 1px solid #343A40;
+    background-color: var(--theme);
+}
+
+.header-icon-container {
+    border-bottom: var(--line);
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    cursor: pointer;
+} */
